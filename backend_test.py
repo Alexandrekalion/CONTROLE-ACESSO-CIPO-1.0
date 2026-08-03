@@ -4,7 +4,6 @@ Backend API Testing for Portaria Access Control System
 Tests all endpoints with proper authentication and role-based access
 """
 
-import os
 import requests
 import sys
 import json
@@ -12,14 +11,11 @@ from datetime import datetime, timedelta
 from typing import Dict, Any, Optional
 
 class PortariaAPITester:
-    def __init__(self, base_url: str | None = None):
-        self.base_url = base_url or os.environ.get("TEST_BASE_URL", "http://localhost:8000")
+    def __init__(self, base_url: str = "https://cipo-v1.preview.emergentagent.com"):
+        self.base_url = base_url
         self.session = requests.Session()
         self.session.headers.update({'Content-Type': 'application/json'})
-        self.admin_credentials = {
-            "email": os.environ["TEST_ADMIN_EMAIL"],
-            "password": os.environ["TEST_ADMIN_PASSWORD"],
-        }
+        self.admin_credentials = {"email": "admin@cipolatti.com", "password": "admin123"}
         self.tests_run = 0
         self.tests_passed = 0
         self.failed_tests = []
@@ -420,7 +416,7 @@ class PortariaAPITester:
         # Create test user
         user_data = {
             "email": "test@portaria.com",
-            "password": os.environ["TEST_NEW_USER_PASSWORD"],
+            "password": "test123",
             "name": "Test User",
             "role": "portaria"
         }
