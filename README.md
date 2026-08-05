@@ -1,4 +1,4 @@
-# Controle de Acesso CIPO 1.0
+# Controle de Acesso Operacional 1.0
 
 Sistema web para controle operacional de acesso, portaria, visitantes, diretoria, frota, carregamentos, agendamentos, relatorios e fotos de evidencia.
 
@@ -79,12 +79,12 @@ flowchart LR
 
 ## Status
 
-Versao antiga / historica de sistema de controle de acesso. Existe tambem o repositorio `CONTROLE-ACESSO-CIPO-2.0`, que parece ser uma versao posterior relacionada.
+Versao antiga / historica de sistema de controle de acesso. Existe tambem uma versao posterior relacionada.
 
 ## Minha Participacao
 
-Projeto desenvolvido e organizado por Michele Santana, com foco em sistemas internos, automacao operacional e apoio a rotinas de portaria.
+Projeto desenvolvido e organizado por Michele Santana, com foco em sistemas operacionais, automacao e apoio a rotinas de portaria.
 
 ## Autor
 
-Desenvolvido por Michele Santana -- Kalion Tecnologia
+Desenvolvido por Michele Santana — Kalion Tecnologia
