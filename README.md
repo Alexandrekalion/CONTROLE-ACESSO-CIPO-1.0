@@ -83,8 +83,8 @@ Versao antiga / historica de sistema de controle de acesso. Existe tambem uma ve
 
 ## Minha Participacao
 
-Projeto desenvolvido e organizado por Michele Santana, com foco em sistemas operacionais, automacao e apoio a rotinas de portaria.
+Projeto desenvolvido e organizado por Alexandre Santana dos Santos, com foco em sistemas operacionais, automacao e apoio a rotinas de portaria.
 
 ## Autor
 
-Desenvolvido por Michele Santana — Kalion Tecnologia
+Desenvolvido por Alexandre Santana dos Santos — Kalion Tecnologia
